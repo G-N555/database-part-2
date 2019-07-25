@@ -14,7 +14,7 @@ module.exports = {
 
   // port for server to run on
   express: {
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 5000,
   },
 
   // timestamp format for our logs

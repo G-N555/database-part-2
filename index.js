@@ -50,7 +50,7 @@ const bodyParser = require("body-parser"); // a middleware plugin to enable expr
 const express = require("express");
 
 const app = express();
-
+app.use(bodyParser());
 /**
  ********************************SERVER SETUP********************************
  ****************************************************************************
